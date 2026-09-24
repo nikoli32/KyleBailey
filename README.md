@@ -7,12 +7,6 @@ This is a complete visual redesign of the portfolio.
 - `styles.css` — responsive visual system
 - `script.js` — mobile navigation + scroll reveal
 
-## Assets
-Copy your existing `Assets` folder next to `index.html`, including:
-- `Headshot-fullsize.jpg`
-- `BodyCompLogo.png`
-- `vibelogo.png`
-
 The design intentionally keeps the portfolio dependency-light: plain HTML/CSS/JS plus Google Fonts.
 
 ## Main design changes
