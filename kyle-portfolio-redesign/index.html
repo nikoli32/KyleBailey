@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Kyle Bailey — Computer Information Systems student and software developer portfolio."
+    />
+    <title>Kyle Bailey — Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="noise"></div>
+
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Kyle Bailey home">
+        <span class="brand-mark">KB</span>
+        <span>Kyle Bailey</span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <a href="#work">Work</a>
+        <a href="#experience">Experience</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <a
+        class="header-cta"
+        href="https://drive.google.com/file/d/1BsHfG_RbxLE2nG0R809vY9aciqv7YR9J/view?usp=sharing"
+        target="_blank"
+        rel="noopener"
+      >
+        Resume <span>↗</span>
+      </a>
+
+      <button class="menu-button" aria-label="Open menu" aria-expanded="false">
+        ☰
+      </button>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">
+              <span class="status-dot"></span> AVAILABLE FOR OPPORTUNITIES
+            </p>
+            <h1>Building software<br /><em>that feels intentional.</em></h1>
+            <p class="hero-text">
+              I’m Kyle Bailey, a Computer Information Systems graduate and
+              developer interested in building useful interfaces, applications,
+              and systems that solve real problems.
+            </p>
+
+            <div class="hero-actions">
+              <a class="button button-primary" href="#work"
+                >Explore my work <span>↓</span></a
+              >
+              <a
+                class="button button-ghost"
+                href="https://github.com/nikoli32"
+                target="_blank"
+                rel="noopener"
+                >GitHub ↗</a
+              >
+            </div>
+
+            <div class="hero-meta">
+              <div>
+                <span class="meta-label">BASED IN</span>
+                <strong>Greenville, SC</strong>
+              </div>
+              <div>
+                <span class="meta-label">FOCUS</span>
+                <strong>Software · Web · Systems</strong>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <div class="portrait-frame">
+              <div class="portrait-glow"></div>
+              <img
+                src="Assets/Headshot-fullsize.jpg"
+                alt="Portrait of Kyle Bailey"
+              />
+              <div class="portrait-tag">
+                <span>01</span>
+                <strong>Developer</strong>
+              </div>
+            </div>
+
+            <div class="code-card">
+              <div class="code-top">
+                <span></span><span></span><span></span><small>kyle.js</small>
+              </div>
+              <pre><code><span class="purple">const</span> developer = {
+  name: <span class="green">"Kyle Bailey"</span>,
+  stack: [<span class="green">"JS"</span>, <span class="green">"Python"</span>, <span class="green">"SQL"</span>],
+  mindset: <span class="green">"build + learn"</span>
+};</code></pre>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="marquee-section" aria-label="Skills">
+        <div class="marquee">
+          <span>SOFTWARE DEVELOPMENT</span><b>✦</b> <span>WEB APPLICATIONS</span
+          ><b>✦</b> <span>SYSTEMS</span><b>✦</b> <span>UI / UX</span><b>✦</b>
+          <span>SOFTWARE DEVELOPMENT</span><b>✦</b> <span>WEB APPLICATIONS</span
+          ><b>✦</b>
+        </div>
+      </section>
+
+      <section class="section work-section" id="work">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">SELECTED WORK</p>
+            <h2>Projects with a<br /><em>purpose.</em></h2>
+          </div>
+          <p class="section-intro">
+            A few things I’ve built while exploring application development,
+            collaboration, and better ways to present information.
+          </p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card project-featured">
+            <div class="project-image">
+              <img src="Assets/BodyCompLogo.png" alt="BodyComp logo" />
+              <span class="project-number">01</span>
+            </div>
+            <div class="project-content">
+              <div class="project-topline">
+                <span>WEB APPLICATION</span>
+                <span>2026</span>
+              </div>
+              <h3>BodyComp</h3>
+              <p>
+                An interactive fitness application designed to connect exercise
+                logging with a visual representation of the muscles being
+                trained.
+              </p>
+              <div class="tags">
+                <span>JavaScript</span><span>Web</span><span>UI</span>
+              </div>
+              <a
+                class="project-link"
+                href="https://github.com/nikoli32/BodyComp"
+                target="_blank"
+                rel="noopener"
+              >
+                View repository <span>↗</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-image project-image-alt">
+              <img src="Assets/vibelogo.png" alt="V.I.B.E. logo" />
+              <span class="project-number">02</span>
+            </div>
+            <div class="project-content">
+              <div class="project-topline">
+                <span>TEAM PROJECT</span>
+                <span>2026</span>
+              </div>
+              <h3>V.I.B.E.</h3>
+              <p>
+                A collaborative event platform built to make local
+                Greenville-area event information easier for citizens to
+                discover.
+              </p>
+              <div class="tags">
+                <span>Frontend</span><span>Collaboration</span><span>UX</span>
+              </div>
+              <a
+                class="project-link"
+                href="https://github.com/nikoli32/VIBE"
+                target="_blank"
+                rel="noopener"
+              >
+                View repository <span>↗</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card project-placeholder">
+            <div class="placeholder-icon">+</div>
+            <div class="project-content">
+              <div class="project-topline"><span>IN PROGRESS</span></div>
+              <h3>More experiments</h3>
+              <p>
+                I’m continually building, testing, breaking, and rebuilding
+                things. This space is ready for the next project worth showing.
+              </p>
+              <span class="project-link muted">Currently building...</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section experience-section" id="experience">
+        <div class="section-heading compact">
+          <div>
+            <p class="eyebrow">EXPERIENCE</p>
+            <h2>Where I’ve<br /><em>been building.</em></h2>
+          </div>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-date">2026</div>
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <p class="timeline-type">INTERNSHIP</p>
+              <h3>Software Developer · ScanSource</h3>
+              <p>
+                Worked in a professional development environment, contributing
+                to software projects and gaining experience with collaborative
+                engineering workflows.
+              </p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-date">2023 — NOW</div>
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <p class="timeline-type">FREELANCE</p>
+              <h3>Computer Technician</h3>
+              <p>
+                Hands-on troubleshooting, configuration, and technical support
+                across consumer and small-system environments.
+              </p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-date">2021 — 2026</div>
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <p class="timeline-type">EARLY EXPERIENCE</p>
+              <h3>Crew Member · McDonald's</h3>
+              <p>
+                Developed communication, reliability, and customer-facing
+                problem-solving skills in a high-volume environment.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section about-section" id="about">
+        <div class="about-layout">
+          <div>
+            <p class="eyebrow">ABOUT</p>
+            <h2>Curious by default.<br /><em>Technical by choice.</em></h2>
+          </div>
+
+          <div class="about-copy">
+            <p class="large-copy">
+              I like understanding how things work — then figuring out how to
+              make them work better.
+            </p>
+            <p>
+              My background in Computer Information Systems sits between
+              software development and infrastructure. That makes me especially
+              interested in projects where the interface, application logic,
+              data, and underlying systems all have to work together.
+            </p>
+
+            <div class="skill-list">
+              <div>
+                <span>01</span><strong>Development</strong
+                ><small>Web apps · Python · JavaScript</small>
+              </div>
+              <div>
+                <span>02</span><strong>Systems</strong
+                ><small>Linux · Networking · Infrastructure</small>
+              </div>
+              <div>
+                <span>03</span><strong>Problem Solving</strong
+                ><small>Debugging · Research · Iteration</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section education-section">
+        <div class="education-card">
+          <div>
+            <p class="eyebrow">EDUCATION</p>
+            <h2>Computer Information Systems</h2>
+            <p>University of South Carolina · 2024 — 2026</p>
+          </div>
+          <div class="education-side">
+            <span>B.S.</span>
+            <small>Greenville Technical College<br />2022 — 2024</small>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact">
+        <div class="contact-inner">
+          <p class="eyebrow">LET’S CONNECT</p>
+          <h2>Have a project?<br /><em>Let’s talk.</em></h2>
+          <p>
+            Whether it’s software, systems, or something that doesn’t fit neatly
+            into a category, I’m always interested in good technical problems.
+          </p>
+          <a class="button button-primary" href="mailto:kylebailey46@gmail.com"
+            >kylebailey46@gmail.com ↗</a
+          >
+
+          <div class="socials">
+            <a href="https://github.com/nikoli32" target="_blank" rel="noopener"
+              >GitHub ↗</a
+            >
+            <a
+              href="https://www.linkedin.com/in/kyle-bailey-7b89222b5/"
+              target="_blank"
+              rel="noopener"
+              >LinkedIn ↗</a
+            >
+            <a
+              href="https://drive.google.com/file/d/1BsHfG_RbxLE2nG0R809vY9aciqv7YR9J/view?usp=sharing"
+              target="_blank"
+              rel="noopener"
+              >Resume ↗</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <span>© 2026 Kyle Bailey</span>
+      <span>Designed & built with HTML, CSS & JavaScript</span>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
